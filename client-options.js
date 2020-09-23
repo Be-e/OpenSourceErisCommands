@@ -1,7 +1,10 @@
 // Options example:
 
-const bot = new Eris('YOUR_BOT_TOKEN',{defaultImageFormat: 'png',maxShards: auto})
+const bot = new Eris('YOUR_BOT_TOKEN',{defaultImageFormat: 'png', maxShards: auto})
 
+// Getting info
+console.log(bot.shards.size)
+console.log(bot.SECTION)
 // Below is normal information you can find by console.log()ing your client. (ex. console.log(bot))
 // If you're confused, read the description to the right or head over to https://abal.moe/Eris/docs/Client
 Client {
